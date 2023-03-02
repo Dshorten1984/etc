@@ -1,0 +1,16 @@
+import shopping_cart
+
+# Add some items to the cart
+shopping_cart.add_item("apples")
+shopping_cart.add_item("bananas")
+shopping_cart.add_item("chocolate")
+
+# Display the contents of the cart
+shopping_cart.show_cart()
+
+# Remove an item from the cart
+shopping_cart.remove_item("bananas")
+
+# Display the updated contents of the cart
+shopping_cart.show_cart()
+
